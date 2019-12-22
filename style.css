@@ -1,6 +1,32 @@
+body{
+    width: 80%;
+    margin: auto;
+}
+
 .title {
-    text-align: center ;  
+    text-align: center ; 
+    border: 1px solid black; 
+    height: 12rem;
+    background-color: rgba(10, 13, 14, 0.808);
 }
 #MyInformations {
+  width: 45rem;
+  border: 1px solid black; 
+  float: right; 
+  
+}
+.title h1{
+     margin: 60px auto;  
+    font-size: 3.5rem;
+    color: white;
+}
 
+.formations h3,
+.experiences h3,
+.competences h3 {
+    text-align: center;
+    background-color: rgba(10, 13, 14, 0.808);
+    color: white;
+    width: 20rem;
+    margin: 1rem auto;
 }
