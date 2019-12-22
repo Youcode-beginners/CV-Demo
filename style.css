@@ -30,3 +30,13 @@ body{
     width: 20rem;
     margin: 1rem auto;
 }
+.formations ul,
+.experiences ul ,
+.competences ul{
+    list-style-type: none;
+}
+#mycontact ul label {
+    padding-right: 10px;
+    font-size: 1rem;
+}
+    
