@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        @font-face {
+            font-family: 'Montserrat';
+            src: url('fonts/Montserrat-Regular.ttf');
+        }
+
+        body { font-family: 'Montserrat', sans-serif; }
+
+        .list1 { margin: auto; }
+
+        .list1 th { text-align: left; }
+
+        .list1 progress {
+            -webkit-appearance: none;
+            appearance: none;
+        }
+
+        .list1 progress[value]::-webkit-progress-bar {
+            background-color: rgb(255, 255, 255);
+            height: 16px;
+            border: .5px solid rgb(236, 233, 233);
+            border-radius: 4px;
+            overflow: hidden;
+        }
+
+        .list1 progress[value="20"]::-webkit-progress-value {
+            background-color: rgb(238, 81, 81);
+            height: 16px;
+            border-radius: 4px;
+        }
+
+        .list1 progress[value="40"]::-webkit-progress-value {
+            background-color: rgb(238, 157, 81);
+            height: 16px;
+            border-radius: 4px;
+        }
+
+        .list1 progress[value="60"]::-webkit-progress-value {
+            background-color: rgb(187, 185, 184);
+            height: 16px;
+            border-radius: 4px;
+        }
+
+        .list1 progress[value="80"]::-webkit-progress-value {
+            background-color: rgb(81, 141, 238);
+            height: 16px;
+            border-radius: 4px;
+        }
+
+        .list1 progress[value="100"]::-webkit-progress-value {
+            background-color: rgb(178, 238, 81);
+            height: 16px;
+            border-radius: 4px;
+        }
+
+        .list1 label {
+            padding-right: 10px;
+            font-size: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <fieldset>
+        <legend>Progress Bar : </legend>
+        <table class="list1">
+            <tr>
+                <th><label>Skill N°1 with 20% progress:</label></th>
+                <td><progress max="100" value="20"></progress></td>
+            </tr>
+            <tr>
+                <th><label>Skill N°2 with 40% progress:</label></th>
+                <td><progress max="100" value="40"></progress></td>
+            </tr>
+            <tr>
+                <th><label>Skill N°3 with 60% progress:</label></th>
+                <td><progress max="100" value="60"></progress></td>
+            </tr>
+            <tr>
+                <th><label>Skill N°4 with 80% progress:</label></th>
+                <td><progress max="100" value="80"></progress></td>
+            </tr>
+            <tr>
+                <th><label>Skill N°5 with 100% progress:</label></th>
+                <td><progress max="100" value="100"></progress></td>
+            </tr>
+        </table>
+    </fieldset>
+</body>
+</html>
