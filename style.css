@@ -1,5 +1,5 @@
 body{
-    width: 80%;
+    width: 95%;
     margin: auto;
 }
 
@@ -9,10 +9,28 @@ body{
     height: 12rem;
     background-color: rgba(10, 13, 14, 0.808);
 }
+#mycontact ul label {
+    padding-right: 10px;
+    font-size: 1rem;
+}
+#mycontact {
+   border: 1px solid rgb(17, 13, 13);
+   height: 44rem;
+   width: 15rem;
+   background-color: rgb(7, 61, 61);
+   float: left;
+}
+.Contact h3{
+    text-align: center; 
+    width: 14rem;
+    margin: 1rem auto;
+    color: white;
+    background-color: rgba(21, 24, 26, 0.808);
+}
 #MyInformations {
   width: 45rem;
   border: 1px solid black; 
-  float: right; 
+  float:left; 
   
 }
 .title h1{
@@ -34,9 +52,23 @@ body{
 .experiences ul ,
 .competences ul{
     list-style-type: none;
-}
-#mycontact ul label {
+};
+/* #mycontact ul label {
     padding-right: 10px;
     font-size: 1rem;
 }
+#mycontact {
+   border: 1px solid rgb(17, 13, 13);
+   height: 44rem;
+   width: 15rem;
+   background-color: rgb(7, 61, 61);
+}
+.Contact h3{
+    text-align: center; 
+    /* border: 1px solid black; */
+    /* width: 14rem;
+    margin: 1rem auto;
+    color: white;
+    background-color: rgba(21, 24, 26, 0.808); */
+
     
