@@ -1,44 +1,95 @@
 body{
     width: 76.4%;
-    margin: auto;
+    margin: 2rem auto
 }
 
 .title {
     text-align: center ; 
-    border: 1px solid black; 
+    border: 0.1px solid black; 
     height: 12rem;
     background-color: rgba(10, 13, 14, 0.808);
 }
-#mycontact ul label {
-    padding-right: 10px;
-    font-size: 1rem;
-}
+
 #mycontact {
-   border: 1px solid rgb(17, 13, 13);
-   height: 44rem;
-   width: 15rem;
+   height: auto;
+   width: 16rem;
    background-color: rgb(13, 112, 112);
    color: white;
    float: left;
+   margin-bottom: 2rem;
 }
+
 .Contact h3,
 .mycompetences h3,
 .mypersonnalite h3,
 .mylangues h3,
 .myloisirs h3{
     text-align: center; 
-    width: 14rem;
+    width: 12rem;
     margin: 1rem auto;
     color: white;
     background-color: rgba(21, 24, 26, 0.808);
+    padding: 5px 0;
 }
+
+.Contact ul { list-style-type: none; }
+
+.Contact ul li { 
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.Contact ul .address { 
+    font-size: .7rem;
+    width: 80%;
+}
+
+.Contact ul li img { 
+    border-radius: 5px; 
+    margin-right: 5px;
+}
+
+.mycompetences ul,
+.mypersonnalite ul,
+.mylangues ul { list-style-type: none; }
+
+.mycompetences ul progress,
+.mypersonnalite ul progress,
+.mylangues ul progress {
+    -webkit-appearance: none;
+    appearance: none;
+    margin-top: 5px;
+}
+
+.mycompetences ul li,
+.mypersonnalite ul li,
+.mylangues ul li { margin: 10px 0; }
+
+.mycompetences ul progress[value]::-webkit-progress-bar,
+.mypersonnalite ul progress[value]::-webkit-progress-bar,
+.mylangues ul progress[value]::-webkit-progress-bar {
+    background-color: rgb(255, 255, 255);
+    height: 10px;
+    border: .5px solid rgb(236, 233, 233);
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.mycompetences ul progress[value]::-webkit-progress-value,
+.mypersonnalite ul progress[value]::-webkit-progress-value,
+.mylangues ul progress[value]::-webkit-progress-value {
+    background-color: rgb(81, 141, 238);
+    height: 8.5px;
+    border-radius: 4px;
+}
+
 #MyInformations {
-  width: 45rem;
-  border: 1px solid black; 
+  width: 48rem;
   float: right; 
 }
+
 .title h1{
-     margin: 60px auto;  
+    margin: 60px auto;  
     font-size: 3.5rem;
     color: white;
 }
@@ -51,12 +102,15 @@ body{
     color: white;
     width: 20rem;
     margin: 1rem auto;
+    padding: 10px 0; 
 }
+
 .formations ul,
 .experiences ul ,
 .competences ul{
     list-style-type: none;
 };
+
 /* #mycontact ul label {
     padding-right: 10px;
     font-size: 1rem;
