@@ -15,7 +15,7 @@ body{
 }
 #mycontact {
    border: 1px solid rgb(17, 13, 13);
-   height: 44rem;
+   height: 50rem;
    width: 15rem;
    background-color: rgb(13, 112, 112);
    color: white;
@@ -32,10 +32,20 @@ body{
     color: white;
     background-color: rgba(21, 24, 26, 0.808);
 }
+.Contact ul,
+.mycompetences ul,
+.mypersonnalite ul,
+.mylangues ul {
+    list-style-type: none;
+
+}
+
 #MyInformations {
+  height: 45rem;
   width: 45rem;
   border: 1px solid black; 
   float: right; 
+  padding-top: 5rem;
 }
 .title h1{
      margin: 60px auto;  
@@ -56,23 +66,15 @@ body{
 .experiences ul ,
 .competences ul{
     list-style-type: none;
-};
-/* #mycontact ul label {
-    padding-right: 10px;
-    font-size: 1rem;
 }
-#mycontact {
-   border: 1px solid rgb(17, 13, 13);
-   height: 44rem;
-   width: 15rem;
-   background-color: rgb(7, 61, 61);
+.myphoto img {
+    width: 4.5rem;
+    height: 4.5rem;
 }
-.Contact h3{
-    text-align: center; 
-    /* border: 1px solid black; */
-    /* width: 14rem;
-    margin: 1rem auto;
-    color: white;
-    background-color: rgba(21, 24, 26, 0.808); */
+.myphoto {
+    display: flex;
+    justify-content: space-around;
+}
+
 
     
